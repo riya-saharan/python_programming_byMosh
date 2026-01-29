@@ -1,3 +1,4 @@
+import math
 print("Hello World")
 print("*" * 10)
 x = 3
@@ -76,3 +77,39 @@ print(10 ** 3)
 x = 10
 x = x + 3
 x += 3
+# functions
+print(round(2.9))
+# prints 3
+print(abs(-2.9))
+# prints 2.9
+
+print(math.ceil(2.2))
+# prints 3
+# type conversion :
+x = input("x: ")
+# whatever the user types is returned as a string
+# it takes input from user, whatever the user types is stored in variable x.
+# print(type(x))
+# x is a string not a number
+y = int(x) + 1
+# converts x from string to integrer
+print(f"x: {x}, y: {y}")
+# this is output formatting, f-string (formatted string)
+# allows inserting variables directly inside text
+# {x} inserts value of variable x and {y} inserts value of variable y
+# for clean and readable output
+# int(x)
+# float(x)
+# bool(x)
+# str(x)
+# falsy values in bool
+# ""
+# 0
+# None
+# fundamentals
+# comparison operators
+# 10 != "10" True
+# "bag" > "apple" true
+# ord("b") 98
+# ord("B") 66
+# conditional statements
