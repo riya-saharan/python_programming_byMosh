@@ -23,3 +23,17 @@ if sum == original:
     print("Armstrong")
 else:
     print("Not Armstrong")
+
+# second largest
+arr = [10, 20, 4, 45, 99]
+
+largest = second = -999999
+
+for num in arr:
+    if num > largest:
+        second = largest
+        largest = num
+    elif num > second and num != largest:
+        second = num
+
+print("Second Largest:", second)
