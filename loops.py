@@ -1,8 +1,11 @@
 # Reverse a Number (No String)
 num = 12345
+#storing a number in a variable called num
 reverse = 0
+#another variable called reverse. start from 0
 
 while num > 0:
+    #loop continues as long as number still has digits
     digit = num % 10
     reverse = reverse * 10 + digit
     num = num // 10
