@@ -47,3 +47,9 @@ numbers = [1, 2, 2, 3, 4, 4, 5]
 
 unique = list(set(numbers))
 print(unique)
+
+# Remove duplicates in a List
+numbers = [1, 2, 2, 3, 4, 4, 5]
+
+unique = list(set(numbers))
+print(unique)
